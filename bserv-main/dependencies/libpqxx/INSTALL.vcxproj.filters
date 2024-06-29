@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\database2\bserv-main\dependencies\libpqxx\CMakeFiles\576f2d3404259296357879fd9130983a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6FB7AF51-2256-3FC2-BC2A-51ACE8B72F4E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

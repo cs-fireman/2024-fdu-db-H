@@ -1,0 +1,9 @@
+E:/database2/pj2/myjql-template-b-tree2/myjql/build/CMakeFiles/ALL_BUILD.dir
+E:/database2/pj2/myjql-template-b-tree2/myjql/build/CMakeFiles/ZERO_CHECK.dir
+E:/database2/pj2/myjql-template-b-tree2/myjql/build/src/CMakeFiles/myjql.dir
+E:/database2/pj2/myjql-template-b-tree2/myjql/build/test/CMakeFiles/test_hash_map.dir
+E:/database2/pj2/myjql-template-b-tree2/myjql/build/test/CMakeFiles/test_str.dir
+E:/database2/pj2/myjql-template-b-tree2/myjql/build/test/CMakeFiles/test_b_tree.dir
+E:/database2/pj2/myjql-template-b-tree2/myjql/build/driver/CMakeFiles/myjqlclient.dir
+E:/database2/pj2/myjql-template-b-tree2/myjql/build/main/CMakeFiles/myjqlserver.dir
+E:/database2/pj2/myjql-template-b-tree2/myjql/build/main/CMakeFiles/myjqlshell.dir

@@ -1,0 +1,58 @@
+﻿  Building Custom Rule E:/database2/bserv-main/dependencies/libpqxx/src/CMakeLists.txt
+  array.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  binarystring.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  blob.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  The contents of <span> are available only with C++20 or later.
+  connection.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  cursor.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  encodings.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  errorhandler.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  except.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  field.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  largeobject.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  notification.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  params.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  pipeline.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  result.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  robusttransaction.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  row.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  sql_cursor.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  strconv.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  stream_from.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  stream_to.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  正在生成代码...
+  正在编译...
+  subtransaction.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  time.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  transaction.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  transaction_base.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  util.cxx
+  The contents of <ranges> are available only with C++20 or later.
+  version.cxx
+  wait.cxx
+  正在生成代码...
+  pqxx.vcxproj -> E:\database2\bserv-main\dependencies\libpqxx\src\Release\pqxx.lib

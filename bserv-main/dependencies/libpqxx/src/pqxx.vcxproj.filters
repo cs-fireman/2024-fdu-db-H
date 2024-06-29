@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\array.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\binarystring.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\blob.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\connection.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\cursor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\encodings.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\errorhandler.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\except.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\field.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\largeobject.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\notification.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\params.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\pipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\result.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\robusttransaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\row.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\sql_cursor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\strconv.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\stream_from.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\stream_to.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\subtransaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\time.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\transaction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\transaction_base.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\util.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\version.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\database2\bserv-main\dependencies\libpqxx\src\wait.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\database2\bserv-main\dependencies\libpqxx\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2A7BB05C-480D-3110-88D8-A3A66EFA5270}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

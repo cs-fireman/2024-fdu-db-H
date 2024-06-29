@@ -1,0 +1,10 @@
+^E:\DATABASE2\PJ2\MYJQL-TEMPLATE-B-TREE2\MYJQL\BUILD\CMAKEFILES\9C79CED45716A4028F5F268F62AEE9E1\GENERATE.STAMP.RULE
+setlocal
+E:\database2\cmake-3.28.3-windows-x86_64\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SE:/database2/pj2/myjql-template-b-tree2/myjql -BE:/database2/pj2/myjql-template-b-tree2/myjql/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/database2/pj2/myjql-template-b-tree2/myjql/build/myjql.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

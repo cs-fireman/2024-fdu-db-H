@@ -1,0 +1,12 @@
+E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/PACKAGE.dir
+E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/INSTALL.dir
+E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/ALL_BUILD.dir
+E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/ZERO_CHECK.dir
+E:/database2/bserv-main/dependencies/libpqxx/src/CMakeFiles/pqxx.dir
+E:/database2/bserv-main/dependencies/libpqxx/src/CMakeFiles/PACKAGE.dir
+E:/database2/bserv-main/dependencies/libpqxx/src/CMakeFiles/INSTALL.dir
+E:/database2/bserv-main/dependencies/libpqxx/include/CMakeFiles/PACKAGE.dir
+E:/database2/bserv-main/dependencies/libpqxx/include/CMakeFiles/INSTALL.dir
+E:/database2/bserv-main/dependencies/libpqxx/test/CMakeFiles/runner.dir
+E:/database2/bserv-main/dependencies/libpqxx/test/CMakeFiles/PACKAGE.dir
+E:/database2/bserv-main/dependencies/libpqxx/test/CMakeFiles/INSTALL.dir

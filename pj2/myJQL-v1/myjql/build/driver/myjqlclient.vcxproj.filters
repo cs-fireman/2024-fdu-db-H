@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\database2\pj2\myJQL-v1\myjql\driver\myjqlclient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\database2\pj2\myJQL-v1\myjql\driver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AC0E5644-0E39-30AB-B6C2-78B3CDF38B67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

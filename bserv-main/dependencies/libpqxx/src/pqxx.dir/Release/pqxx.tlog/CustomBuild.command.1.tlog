@@ -1,0 +1,10 @@
+^E:\DATABASE2\BSERV-MAIN\DEPENDENCIES\LIBPQXX\SRC\CMAKELISTS.TXT
+setlocal
+E:\database2\cmake-3.28.3-windows-x86_64\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SE:/database2/bserv-main/dependencies/libpqxx -BE:/database2/bserv-main/dependencies/libpqxx --check-stamp-file E:/database2/bserv-main/dependencies/libpqxx/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

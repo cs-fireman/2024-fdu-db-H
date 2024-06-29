@@ -1,0 +1,3 @@
+# CMake generation dependency list for this directory.
+E:/database2/bserv-main/dependencies/libpqxx/libpqxx.pc.in
+E:/database2/bserv-main/dependencies/libpqxx/src/CMakeLists.txt

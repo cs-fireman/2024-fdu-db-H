@@ -1,0 +1,1311 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/database2/cmake-3.28.3-windows-x86_64/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/database2/cmake-3.28.3-windows-x86_64/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/database2/cmake-3.28.3-windows-x86_64/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/database2/cmake-3.28.3-windows-x86_64/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.3.1+2badb37d1 for .NET Framework
+      生成启动时间为 2024/3/15 8:59:58。
+      节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.50
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/3.28.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/database2/cmake-3.28.3-windows-x86_64/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/database2/cmake-3.28.3-windows-x86_64/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeScratch/TryCompile-s4l86m"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeScratch/TryCompile-s4l86m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeScratch/TryCompile-s4l86m'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b77ec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 8:59:59。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-s4l86m\\cmTC_b77ec.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b77ec.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-s4l86m\\Debug\\”。
+          正在创建目录“cmTC_b77ec.dir\\Debug\\cmTC_b77ec.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b77ec.dir\\Debug\\cmTC_b77ec.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b77ec.dir\\Debug\\\\" /Fd"cmTC_b77ec.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\cmake-3.28.3-windows-x86_64\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          CMakeCXXCompilerABI.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b77ec.dir\\Debug\\\\" /Fd"cmTC_b77ec.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\cmake-3.28.3-windows-x86_64\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-s4l86m\\Debug\\cmTC_b77ec.exe" /INCREMENTAL /ILK:"cmTC_b77ec.dir\\Debug\\cmTC_b77ec.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeScratch/TryCompile-s4l86m/Debug/cmTC_b77ec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeScratch/TryCompile-s4l86m/Debug/cmTC_b77ec.lib" /MACHINE:X64  /machine:x64 cmTC_b77ec.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b77ec.vcxproj -> E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-s4l86m\\Debug\\cmTC_b77ec.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_b77ec.dir\\Debug\\cmTC_b77ec.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_b77ec.dir\\Debug\\cmTC_b77ec.tlog\\cmTC_b77ec.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-s4l86m\\cmTC_b77ec.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.36
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/database2/cmake-3.28.3-windows-x86_64/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake/config.cmake:38 (check_function_exists)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for poll"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeScratch/TryCompile-rthwri"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeScratch/TryCompile-rthwri"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeScratch/TryCompile-rthwri'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b003b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 8:59:59。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\cmTC_b003b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b003b.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\Debug\\”。
+          正在创建目录“cmTC_b003b.dir\\Debug\\cmTC_b003b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b003b.dir\\Debug\\cmTC_b003b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b003b.dir\\Debug\\\\" /Fd"cmTC_b003b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\CheckFunctionExists.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          CheckFunctionExists.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=poll /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b003b.dir\\Debug\\\\" /Fd"cmTC_b003b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\CheckFunctionExists.cxx"
+        Link:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\Debug\\cmTC_b003b.exe" /INCREMENTAL /ILK:"cmTC_b003b.dir\\Debug\\cmTC_b003b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeScratch/TryCompile-rthwri/Debug/cmTC_b003b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeScratch/TryCompile-rthwri/Debug/cmTC_b003b.lib" /MACHINE:X64  /machine:x64 cmTC_b003b.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 poll，函数 main 中引用了该符号 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\cmTC_b003b.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\Debug\\cmTC_b003b.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\cmTC_b003b.vcxproj]
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\cmTC_b003b.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\cmTC_b003b.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 poll，函数 main 中引用了该符号 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\cmTC_b003b.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\Debug\\cmTC_b003b.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeScratch\\TryCompile-rthwri\\cmTC_b003b.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:2 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_FLOAT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4d6aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:00。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_4d6aa.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_4d6aa.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_4d6aa.dir\\Debug\\cmTC_4d6aa.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_4d6aa.dir\\Debug\\cmTC_4d6aa.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_4d6aa.dir\\Debug\\\\" /Fd"cmTC_4d6aa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CHARCONV_FLOAT.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_CHARCONV_FLOAT.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_4d6aa.dir\\Debug\\\\" /Fd"cmTC_4d6aa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CHARCONV_FLOAT.cxx"
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CHARCONV_FLOAT.cxx(15,17): error C2146: 语法错误: 缺少“)”(在标识符“and”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_4d6aa.vcxproj]
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_4d6aa.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_4d6aa.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CHARCONV_FLOAT.cxx(15,17): error C2146: 语法错误: 缺少“)”(在标识符“and”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_4d6aa.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:6 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CHARCONV_INT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d47cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:00。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_d47cf.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d47cf.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_d47cf.dir\\Debug\\cmTC_d47cf.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d47cf.dir\\Debug\\cmTC_d47cf.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_d47cf.dir\\Debug\\\\" /Fd"cmTC_d47cf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CHARCONV_INT.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_CHARCONV_INT.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_d47cf.dir\\Debug\\\\" /Fd"cmTC_d47cf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CHARCONV_INT.cxx"
+        Link:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_d47cf.exe" /INCREMENTAL /ILK:"cmTC_d47cf.dir\\Debug\\cmTC_d47cf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_d47cf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_d47cf.lib" /MACHINE:X64  /machine:x64 cmTC_d47cf.dir\\Debug\\PQXX_HAVE_CHARCONV_INT.obj
+          cmTC_d47cf.vcxproj -> E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_d47cf.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d47cf.dir\\Debug\\cmTC_d47cf.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d47cf.dir\\Debug\\cmTC_d47cf.tlog\\cmTC_d47cf.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_d47cf.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:10 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CMP"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_91e36.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:01。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_91e36.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_91e36.dir\\Debug\\cmTC_91e36.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_91e36.dir\\Debug\\cmTC_91e36.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_91e36.dir\\Debug\\\\" /Fd"cmTC_91e36.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CMP.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_CMP.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_91e36.dir\\Debug\\\\" /Fd"cmTC_91e36.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CMP.cxx"
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CMP.cxx(8,15): error C2039: "cmp_greater": 不是 "std" 的成员 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj]
+        E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\include\\utility(29): message : 参见“std”的声明 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CMP.cxx(8,26): error C3861: “cmp_greater”: 找不到标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CMP.cxx(8,43): error C2039: "cmp_less_equal": 不是 "std" 的成员 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj]
+        E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\include\\utility(29): message : 参见“std”的声明 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CMP.cxx(8,57): error C3861: “cmp_less_equal”: 找不到标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj]
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CMP.cxx(8,15): error C2039: "cmp_greater": 不是 "std" 的成员 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CMP.cxx(8,26): error C3861: “cmp_greater”: 找不到标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CMP.cxx(8,43): error C2039: "cmp_less_equal": 不是 "std" 的成员 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CMP.cxx(8,57): error C3861: “cmp_less_equal”: 找不到标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_91e36.vcxproj]
+        
+            0 个警告
+            4 个错误
+        
+        已用时间 00:00:00.27
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:14 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CONCEPTS"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2b012.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:01。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2b012.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2b012.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_2b012.dir\\Debug\\cmTC_2b012.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2b012.dir\\Debug\\cmTC_2b012.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_2b012.dir\\Debug\\\\" /Fd"cmTC_2b012.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CONCEPTS.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_CONCEPTS.cxx
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CONCEPTS.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_CONCEPTS: __cpp_concepts is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2b012.vcxproj]
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_2b012.dir\\Debug\\\\" /Fd"cmTC_2b012.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CONCEPTS.cxx"
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2b012.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2b012.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CONCEPTS.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_CONCEPTS: __cpp_concepts is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2b012.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:18 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_CXA_DEMANGLE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_61e6a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:01。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_61e6a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_61e6a.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_61e6a.dir\\Debug\\cmTC_61e6a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_61e6a.dir\\Debug\\cmTC_61e6a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_61e6a.dir\\Debug\\\\" /Fd"cmTC_61e6a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CXA_DEMANGLE.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          PQXX_HAVE_CXA_DEMANGLE.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_61e6a.dir\\Debug\\\\" /Fd"cmTC_61e6a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CXA_DEMANGLE.cxx"
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CXA_DEMANGLE.cxx(7,10): fatal  error C1083: 无法打开包括文件: “cxxabi.h”: No such file or directory [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_61e6a.vcxproj]
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_61e6a.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_61e6a.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_CXA_DEMANGLE.cxx(7,10): fatal  error C1083: 无法打开包括文件: “cxxabi.h”: No such file or directory [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_61e6a.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:22 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_PURE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_68cf3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:02。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_68cf3.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_68cf3.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_68cf3.dir\\Debug\\cmTC_68cf3.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_68cf3.dir\\Debug\\cmTC_68cf3.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_68cf3.dir\\Debug\\\\" /Fd"cmTC_68cf3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_PURE.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_GCC_PURE.cxx
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(2,20): error C2065: “pure”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_68cf3.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(2,27): error C2146: 语法错误: 缺少“;”(在标识符“f”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_68cf3.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(3,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_68cf3.vcxproj]
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_68cf3.dir\\Debug\\\\" /Fd"cmTC_68cf3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_PURE.cxx"
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_68cf3.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_68cf3.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(2,20): error C2065: “pure”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_68cf3.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(2,27): error C2146: 语法错误: 缺少“;”(在标识符“f”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_68cf3.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_PURE.cxx(3,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_68cf3.vcxproj]
+        
+            0 个警告
+            3 个错误
+        
+        已用时间 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:26 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_GCC_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9e239.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:02。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_9e239.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_9e239.dir\\Debug\\cmTC_9e239.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_9e239.dir\\Debug\\cmTC_9e239.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_9e239.dir\\Debug\\\\" /Fd"cmTC_9e239.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_GCC_VISIBILITY.cxx
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,33): error C2143: 语法错误: 缺少“)”(在“(”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,23): error C2079: “visibility”使用未定义的 struct“__attribute__” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,42): error C2440: “初始化”: 无法从“const char [7]”转换为“int” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,33): message : 没有使该转换得以执行的上下文 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,43): error C2059: 语法错误:“)” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,44): error C2059: 语法错误:“)” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,46): error C2146: 语法错误: 缺少“;”(在标识符“D”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(3,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(4,3): error C2064: 项不会计算为接受 0 个参数的函数 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(5,3): error C2062: 意外的类型“int” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(5,11): error C2143: 语法错误: 缺少“;”(在“{”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(5,11): error C2447: “{”: 缺少函数标题(是否是老式的形式表?) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(6,1): error C2059: 语法错误:“}” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(6,1): error C2143: 语法错误: 缺少“;”(在“}”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(10,5): error C2146: 语法错误: 缺少“;”(在标识符“d”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(10,5): error C2065: “d”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(11,10): error C2065: “d”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_9e239.dir\\Debug\\\\" /Fd"cmTC_9e239.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx"
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,33): error C2143: 语法错误: 缺少“)”(在“(”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,23): error C2079: “visibility”使用未定义的 struct“__attribute__” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,42): error C2440: “初始化”: 无法从“const char [7]”转换为“int” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,43): error C2059: 语法错误:“)” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,44): error C2059: 语法错误:“)” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(2,46): error C2146: 语法错误: 缺少“;”(在标识符“D”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(3,1): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(4,3): error C2064: 项不会计算为接受 0 个参数的函数 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(5,3): error C2062: 意外的类型“int” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(5,11): error C2143: 语法错误: 缺少“;”(在“{”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(5,11): error C2447: “{”: 缺少函数标题(是否是老式的形式表?) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(6,1): error C2059: 语法错误:“}” [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(6,1): error C2143: 语法错误: 缺少“;”(在“}”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(10,5): error C2146: 语法错误: 缺少“;”(在标识符“d”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(10,5): error C2065: “d”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_GCC_VISIBILITY.cxx(11,10): error C2065: “d”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_9e239.vcxproj]
+        
+            0 个警告
+            16 个错误
+        
+        已用时间 00:00:00.24
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:30 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_LIKELY"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_30ff7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:03。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_30ff7.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_30ff7.dir\\Debug\\cmTC_30ff7.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_30ff7.dir\\Debug\\cmTC_30ff7.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_30ff7.dir\\Debug\\\\" /Fd"cmTC_30ff7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_LIKELY.cxx
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(7,21): error C2065: “because”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(7,30): error C2065: “older”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(7,37): error C2065: “C”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(7,42): error C2065: “standard”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(7,3): error C3861: “deliberately_fail”: 找不到标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(11,20): warning C5051: 特性“likely”至少需要“/std:c++20”；已忽略 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_30ff7.dir\\Debug\\\\" /Fd"cmTC_30ff7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx"
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(11,20): warning C5051: 特性“likely”至少需要“/std:c++20”；已忽略 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+        
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(7,21): error C2065: “because”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(7,30): error C2065: “older”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(7,37): error C2065: “C”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(7,42): error C2065: “standard”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_LIKELY.cxx(7,3): error C3861: “deliberately_fail”: 找不到标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_30ff7.vcxproj]
+        
+            1 个警告
+            5 个错误
+        
+        已用时间 00:00:00.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:34 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_MULTIDIM"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cbcfc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:03。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_cbcfc.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_cbcfc.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_cbcfc.dir\\Debug\\cmTC_cbcfc.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_cbcfc.dir\\Debug\\cmTC_cbcfc.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_cbcfc.dir\\Debug\\\\" /Fd"cmTC_cbcfc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_MULTIDIM.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_MULTIDIM.cxx
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_MULTIDIM.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_cbcfc.vcxproj]
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_cbcfc.dir\\Debug\\\\" /Fd"cmTC_cbcfc.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_MULTIDIM.cxx"
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_cbcfc.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_cbcfc.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_MULTIDIM.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_MULTIDIM: __cpp_multidimensional_subscript is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_cbcfc.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:38 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_PATH"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_248b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:03。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_248b0.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_248b0.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_248b0.dir\\Debug\\cmTC_248b0.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_248b0.dir\\Debug\\cmTC_248b0.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_248b0.dir\\Debug\\\\" /Fd"cmTC_248b0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_PATH.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          PQXX_HAVE_PATH.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_248b0.dir\\Debug\\\\" /Fd"cmTC_248b0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_PATH.cxx"
+        Link:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_248b0.exe" /INCREMENTAL /ILK:"cmTC_248b0.dir\\Debug\\cmTC_248b0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_248b0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_248b0.lib" /MACHINE:X64  /machine:x64 cmTC_248b0.dir\\Debug\\PQXX_HAVE_PATH.obj
+          cmTC_248b0.vcxproj -> E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_248b0.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_248b0.dir\\Debug\\cmTC_248b0.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_248b0.dir\\Debug\\cmTC_248b0.tlog\\cmTC_248b0.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_248b0.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.74
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:42 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c6274.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:04。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_c6274.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c6274.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_c6274.dir\\Debug\\cmTC_c6274.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c6274.dir\\Debug\\cmTC_c6274.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_c6274.dir\\Debug\\\\" /Fd"cmTC_c6274.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_POLL.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_POLL.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_c6274.dir\\Debug\\\\" /Fd"cmTC_c6274.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_POLL.cxx"
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_POLL.cxx(2,10): fatal  error C1083: 无法打开包括文件: “poll.h”: No such file or directory [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_c6274.vcxproj]
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_c6274.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_c6274.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_POLL.cxx(2,10): fatal  error C1083: 无法打开包括文件: “poll.h”: No such file or directory [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_c6274.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.23
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:46 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SLEEP_FOR"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_15071.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:05。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_15071.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_15071.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_15071.dir\\Debug\\cmTC_15071.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_15071.dir\\Debug\\cmTC_15071.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_15071.dir\\Debug\\\\" /Fd"cmTC_15071.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SLEEP_FOR.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_SLEEP_FOR.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_15071.dir\\Debug\\\\" /Fd"cmTC_15071.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SLEEP_FOR.cxx"
+        Link:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_15071.exe" /INCREMENTAL /ILK:"cmTC_15071.dir\\Debug\\cmTC_15071.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_15071.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_15071.lib" /MACHINE:X64  /machine:x64 cmTC_15071.dir\\Debug\\PQXX_HAVE_SLEEP_FOR.obj
+          cmTC_15071.vcxproj -> E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_15071.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_15071.dir\\Debug\\cmTC_15071.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_15071.dir\\Debug\\cmTC_15071.tlog\\cmTC_15071.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_15071.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.69
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:50 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SOURCE_LOCATION"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_62199.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:05。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_62199.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_62199.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_62199.dir\\Debug\\cmTC_62199.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_62199.dir\\Debug\\cmTC_62199.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_62199.dir\\Debug\\\\" /Fd"cmTC_62199.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SOURCE_LOCATION.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_SOURCE_LOCATION.cxx
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SOURCE_LOCATION.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_62199.vcxproj]
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_62199.dir\\Debug\\\\" /Fd"cmTC_62199.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SOURCE_LOCATION.cxx"
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_62199.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_62199.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SOURCE_LOCATION.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_SOURCE_LOCATION: __cpp_lib_source_location is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_62199.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:54 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SPAN"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2232c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:06。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2232c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2232c.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_2232c.dir\\Debug\\cmTC_2232c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2232c.dir\\Debug\\cmTC_2232c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_2232c.dir\\Debug\\\\" /Fd"cmTC_2232c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SPAN.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          PQXX_HAVE_SPAN.cxx
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SPAN.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_SPAN: __cpp_lib_span is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2232c.vcxproj]
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_2232c.dir\\Debug\\\\" /Fd"cmTC_2232c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SPAN.cxx"
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2232c.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2232c.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SPAN.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_SPAN: __cpp_lib_span is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2232c.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.24
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:58 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_SSIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b5344.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:06。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_b5344.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b5344.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_b5344.dir\\Debug\\cmTC_b5344.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b5344.dir\\Debug\\cmTC_b5344.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b5344.dir\\Debug\\\\" /Fd"cmTC_b5344.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SSIZE.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_SSIZE.cxx
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SSIZE.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_b5344.vcxproj]
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b5344.dir\\Debug\\\\" /Fd"cmTC_b5344.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SSIZE.cxx"
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_b5344.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_b5344.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_SSIZE.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_SSIZE: __cpp_lib_ssize is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_b5344.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:62 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_R"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2db87.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:06。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2db87.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_2db87.dir\\Debug\\cmTC_2db87.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2db87.dir\\Debug\\cmTC_2db87.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_2db87.dir\\Debug\\\\" /Fd"cmTC_2db87.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_STRERROR_R.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_2db87.dir\\Debug\\\\" /Fd"cmTC_2db87.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx"
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(11,12): error C3861: “strerror_r”: 找不到标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13,10): error C2065: “not”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13,14): error C2146: 语法错误: 缺少“;”(在标识符“not”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13,14): error C2065: “not”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13,18): error C2146: 语法错误: 缺少“;”(在标识符“res”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj]
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(11,12): error C3861: “strerror_r”: 找不到标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13,10): error C2065: “not”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13,14): error C2146: 语法错误: 缺少“;”(在标识符“not”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13,14): error C2065: “not”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_R.cxx(13,18): error C2146: 语法错误: 缺少“;”(在标识符“res”的前面) [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_2db87.vcxproj]
+        
+            0 个警告
+            5 个错误
+        
+        已用时间 00:00:00.26
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:66 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_STRERROR_S"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c23b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:07。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_c23b4.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c23b4.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_c23b4.dir\\Debug\\cmTC_c23b4.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c23b4.dir\\Debug\\cmTC_c23b4.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_c23b4.dir\\Debug\\\\" /Fd"cmTC_c23b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_S.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_STRERROR_S.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_c23b4.dir\\Debug\\\\" /Fd"cmTC_c23b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_STRERROR_S.cxx"
+        Link:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_c23b4.exe" /INCREMENTAL /ILK:"cmTC_c23b4.dir\\Debug\\cmTC_c23b4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_c23b4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_c23b4.lib" /MACHINE:X64  /machine:x64 cmTC_c23b4.dir\\Debug\\PQXX_HAVE_STRERROR_S.obj
+          cmTC_c23b4.vcxproj -> E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_c23b4.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_c23b4.dir\\Debug\\cmTC_c23b4.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_c23b4.dir\\Debug\\cmTC_c23b4.tlog\\cmTC_c23b4.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_c23b4.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.39
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:70 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_THREAD_LOCAL"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7879f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:07。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_7879f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_7879f.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_7879f.dir\\Debug\\cmTC_7879f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_7879f.dir\\Debug\\cmTC_7879f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_7879f.dir\\Debug\\\\" /Fd"cmTC_7879f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_THREAD_LOCAL.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_THREAD_LOCAL.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_7879f.dir\\Debug\\\\" /Fd"cmTC_7879f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_THREAD_LOCAL.cxx"
+        Link:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_7879f.exe" /INCREMENTAL /ILK:"cmTC_7879f.dir\\Debug\\cmTC_7879f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_7879f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_7879f.lib" /MACHINE:X64  /machine:x64 cmTC_7879f.dir\\Debug\\PQXX_HAVE_THREAD_LOCAL.obj
+          cmTC_7879f.vcxproj -> E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_7879f.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_7879f.dir\\Debug\\cmTC_7879f.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_7879f.dir\\Debug\\cmTC_7879f.tlog\\cmTC_7879f.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_7879f.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:74 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_UNREACHABLE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ea111.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:08。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_ea111.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ea111.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_ea111.dir\\Debug\\cmTC_ea111.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ea111.dir\\Debug\\cmTC_ea111.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_ea111.dir\\Debug\\\\" /Fd"cmTC_ea111.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_UNREACHABLE.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          PQXX_HAVE_UNREACHABLE.cxx
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_UNREACHABLE.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_UNREACHABLE: __cpp_lib_unreachable is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_ea111.vcxproj]
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_ea111.dir\\Debug\\\\" /Fd"cmTC_ea111.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_UNREACHABLE.cxx"
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_ea111.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_ea111.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_UNREACHABLE.cxx(5,1): fatal  error C1189: #error:  "No PQXX_HAVE_UNREACHABLE: __cpp_lib_unreachable is not set." [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_ea111.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.22
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:78 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "PQXX_HAVE_YEAR_MONTH_DAY"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8464e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:08。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_8464e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_8464e.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_8464e.dir\\Debug\\cmTC_8464e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_8464e.dir\\Debug\\cmTC_8464e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_8464e.dir\\Debug\\\\" /Fd"cmTC_8464e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          PQXX_HAVE_YEAR_MONTH_DAY.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_8464e.dir\\Debug\\\\" /Fd"cmTC_8464e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx"
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx(6,27): error C2039: "year": 不是 "std::chrono" 的成员 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_8464e.vcxproj]
+        E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\include\\__msvc_chrono.hpp(777): message : 参见“std::chrono”的声明 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_8464e.vcxproj]
+        E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx(6,31): error C2065: “year”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_8464e.vcxproj]
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_8464e.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_8464e.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx(6,27): error C2039: "year": 不是 "std::chrono" 的成员 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_8464e.vcxproj]
+          E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\PQXX_HAVE_YEAR_MONTH_DAY.cxx(6,31): error C2065: “year”: 未声明的标识符 [E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_8464e.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.27
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/pqxx_cxx_feature_checks.cmake:82 (try_compile)"
+      - "cmake/config.cmake:56 (include)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+      binary: "E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "E:/database2/bserv-main/dependencies/libpqxx/cmake"
+    buildResult:
+      variable: "no_need_fslib"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): E:/新建文件夹/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1e12e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.3.1+2badb37d1 for .NET Framework
+        生成启动时间为 2024/3/15 9:00:09。
+        节点 1 上的项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_1e12e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_1e12e.dir\\Debug\\”。
+          正在创建目录“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\”。
+          正在创建目录“cmTC_1e12e.dir\\Debug\\cmTC_1e12e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_1e12e.dir\\Debug\\cmTC_1e12e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_1e12e.dir\\Debug\\\\" /Fd"cmTC_1e12e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\no_need_fslib.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.33.31630 版
+          no_need_fslib.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_1e12e.dir\\Debug\\\\" /Fd"cmTC_1e12e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\database2\\bserv-main\\dependencies\\libpqxx\\config-tests\\no_need_fslib.cxx"
+        Link:
+          E:\\新建文件夹\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1e12e.exe" /INCREMENTAL /ILK:"cmTC_1e12e.dir\\Debug\\cmTC_1e12e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_1e12e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/database2/bserv-main/dependencies/libpqxx/CMakeFiles/CMakeTmp/Debug/cmTC_1e12e.lib" /MACHINE:X64  /machine:x64 cmTC_1e12e.dir\\Debug\\no_need_fslib.obj
+          cmTC_1e12e.vcxproj -> E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_1e12e.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_1e12e.dir\\Debug\\cmTC_1e12e.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_1e12e.dir\\Debug\\cmTC_1e12e.tlog\\cmTC_1e12e.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\database2\\bserv-main\\dependencies\\libpqxx\\CMakeFiles\\CMakeTmp\\cmTC_1e12e.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.83
+        
+      exitCode: 0
+...
